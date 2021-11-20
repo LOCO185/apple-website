@@ -1,0 +1,25 @@
+/* utilities variables*/
+:root {
+    --ff-primary: 'Roboto', 'Helvetica', Arial, sans-serif;
+    --ff-secondary: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    --ff-footer: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+    --fw-bold: 600;
+
+    --clr-backgorund:rgb(255, 255, 255);
+    --clr-light: #fff;
+    --clr-light2: #f5f5f7;
+    --clr-footer: #d2d2d7;
+    --clr-dark: #1d1d1f;
+    --clr-accent: #06c;
+    --clr-accent2: #2997ff;
+
+    --fs-a: 1.4rem;
+    --fs-lnbuy: 1rem;
+    --fs-h1: 38px;
+    --fs-h2: 35px;
+    --fs-h3: 1.25rem;
+    --fs-grid: 1.2rem;
+
+    --txt-deco: underline;
+}

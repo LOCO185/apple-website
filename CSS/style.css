@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('utilities.css');
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+ul, li, ol {
+    list-style: none;
+    }
+
+a {
+    text-decoration: none;
+}
+body, main{
+    margin: 0 auto;
+    font-family: var(--ff-primary);
+    background-color: var(--clr-background);
+}
+/*#################################################   HEADER   ######################################################################## */
+.container1{
+    padding-top: 44px;
+}
+.header {
+    transform: translateY(-44px);
+    display: flex;
+    position: fixed;
+    z-index: 77;
+    padding: 10px;
+    height: 44px;
+    width: 100%;
+    color: rgba(255, 253, 253, 0.87);
+    background-color: rgba(34, 34, 34, 0.92);
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 120px;
+    padding-top: 5px;
+    width: 980px;
+}
+.header-list li{
+    width: auto;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.header-list li a{
+    text-decoration: none;
+    color: #d0d0d4;
+    margin-bottom:20px; 
+    line-height: 15px;
+}
+.header-list li a:hover{
+    color: var(--clr-light);
+}
+.a_navbar { 
+    font-size:12px;
+}
+.logo {
+    font-size: 18px;
+}
+/*#####################################################  RED NAVBAR  ############################################################# */
+.red {
+    background-color: #E34140;
+    height: 44px;
+    width: 100%;
+    top: 44px;
+    display: flex;
+    justify-content: center;
+}
+.red p{
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--clr-light);
+    font-family: var(--ff-primary);
+}
+.red p a{
+    color: var(--clr-light);
+}
+.red p a:hover{
+    text-decoration: var(--txt-deco);
+}
+/*#######################################################   PAGE 1   ################################################################# */
+.main1{
+    width: 100%;
+    height: 88%;
+    top: 88px;
+    background-color: #eaf2fc;
+}
+.gift{
+    background:url(/images/applegift.jpg.png)no-repeat;
+    width:80px;
+    height:88px;
+    transform: translate(590px, 30px);
+    background-size: 71px 88px;
+}
+.h2div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    font-size: var(--fs-h2);
+    color: var(--clr-dark);
+}
+.shopgifts{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.shopgifts a {
+    font-size: var(--fs-a);
+    color: var(--clr-accent);
+}
+.shopgifts a:hover{
+    text-decoration: var(--txt-deco);
+}
+/*##########################################################  3 PICTURES  #################################################################### */
+.wrapper{
+    left: 200px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pic1{
+    width: 289px;
+    height: 281px;
+    background-size: 289px 281px;
+    background-repeat: no-repeat;
+    background-image: url(/images/airpods.jpg.png);
+}
+.pic2{
+    width: 289px;
+    height: 281px;
+    background-size: 289px 281px;
+    background-repeat: no-repeat;
+    background-image: url(/images/iphone1.jpg.png);
+}
+.pic3{
+    width: 289px;
+    height: 281px;
+    background-size: 289px 281px;
+    background-repeat: no-repeat;
+    background-image: url(/images/ipad.jpg.png);
+
+}
+/*###################################################  PAGE 2  ####################################################################### */
+.page-2{
+    width: 100%;
+    height: 690px;
+    margin: 12px 0;
+    background-image: url("/images/iphone131.jpg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.page-2 a:hover{
+    text-decoration: var(--txt-deco);
+    cursor: pointer;
+}
+.text-page-2{
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+    font-family: var(--ff-secondary);
+    letter-spacing: -0.002em;
+    color: var(--clr-dark);
+}
+.page-2 div{
+    display: flex;
+    justify-content: center;
+}
+.text-page-2{
+    font-size: 3.6rem;
+    padding-top: 10px ;
+}
+.page-2 .so{
+    font-size: 1.8rem;
+    height: 50px;
+    transform: translateY(-90px);
+}
+.page-2 .learnNbuy1 a{
+    margin-left: 20px;
+    transform: translateY(-65px);
+    padding:0;
+    font-size: var(--fs-a);
+    color:var(--clr-accent);
+}
+.page-2 .learnNbuy1 a:hover{
+    text-decoration: var(--txt-deco);
+    cursor: pointer;
+}
+/*#################################################### iPHONE 13.2 ########################################################################### */
+.page2-1{
+    width: 100%;
+    height: 690px;
+    margin: 12px 0;
+    background-image: url("/images/iphone13.2.jpg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.page2-1 a:hover{
+    text-decoration: var(--txt-deco);
+    cursor: pointer;
+}
+.iphone13-2{
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+    font-family: var(--ff-secondary);
+    letter-spacing: -0.002em;
+    color: var(--clr-light2);
+}
+.page2-1 div{
+    display: flex;
+    justify-content: center;
+}
+.iphone13-2{
+    font-size: 3.6rem;
+    padding-top: 10px ;
+}
+.page2-1 .superpower{
+    font-size: 1.8rem;
+    height: 50px;
+    transform: translateY(-90px);
+    font-weight: bold;
+    color: #fec2eb;
+}
+.page2-1 .learnNbuy1 a{
+    margin-left: 20px;
+    transform: translateY(-65px);
+    padding:0;
+    font-size: var(--fs-a);
+    color:var(--clr-accent2);
+}
+.page2-1 .learnNbuy1 a:hover{
+    text-decoration: var(--txt-deco);
+    cursor: pointer;
+}
+/*####################################################   @GRID@   ################################################################### */
+.container3{
+    width: 100%;
+    height: 100%;
+}
+.container3 .mygrid{
+    width: 100%;
+    height: 100%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 15px 15px;
+}
+.mygrid a:hover{
+    text-decoration: var(--txt-deco);
+    cursor: pointer;
+}
+/*######################################################## grid 1 #################################################################### */
+.grid1{
+    background-image: url(/images/grid/Grid1.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+.grid1 .mac{
+    font-size: 30px;
+    font-weight: var(--fw-bold);
+    font-family: var(--ff-secondary);
+    letter-spacing: -0.002em;
+    color: var(--clr-dark);
+}
+.supercharged{
+    font-size: var(--fs-grid);
+    height: 50px; 
+    transform: translateY(-20px);
+    color: var(--clr-dark);
+}
+.grid1 .learnNbuy1{
+    font-size: var(--fs-lnbuy);
+    color:var(--clr-accent2);
+    transform: translateY(-30px);
+}
+.grid1 .learnNbuy1 a.buy{
+    margin-left: 30px;
+}
+
+/*######################################################### grid 2 ######################################################################### */
+.grid2{
+    background-image: url(/images/grid/Grid2.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+.new{
+    margin: 20px;
+}
+.grid2 span{
+    color: #bf4800;
+    font-size: 12px;
+}
+.largest{
+    font-size: 20px;
+}
+.grid2 .learnNbuy1{
+    font-size: var(--fs-lnbuy);
+    color:var(--clr-accent2);
+    transform: translateY(-10px);
+}
+.grid2 .learnNbuy1 a.buy{
+    margin-left: 30px;
+}
+/*######################################################################## grid 3 ################################################################## */
+.grid3{
+    background-image: url(/images/grid/Grid3.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+.grid3 .pod{
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-bold);
+    font-family: var(--ff-secondary);
+    letter-spacing: -0.002em;
+    color: var(--clr-dark);
+}
+.grid3 .learnNbuy1{
+    font-size: var(--fs-lnbuy);
+    color: var(--clr-accent2);
+    transform: translateY(-10px);
+}
+.grid3 .learnNbuy1 a.buy{
+    margin-left: 30px;
+}
+/*################################################################# grid 4 ######################################################################## */
+.grid4{
+    background-image: url(/images/grid/Grid4.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+.grid4 .arcade{
+    margin: 30px;
+}
+.grid4 .lego{
+    font-size: var(--fs-grid);
+    height: 50px; 
+    transform: translateY(-20px);
+    color: var(--clr-dark);
+}
+.grid4 .learnNbuy1{
+    font-size: var(--fs-lnbuy);
+    color:var(--clr-accent2);
+    transform: translateY(-10px);
+}
+.grid4 .learnNbuy1 a.buy{
+    margin-left: 30px;
+}
+
+/*####################################################################### grid 5 ################################################################# */
+.grid5{
+    background-image: url(/images/grid/Grid5.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+.grid5 .card{
+    margin: 30px;
+}
+.grid5 .purchase{
+    font-size: var(--fs-grid);
+    height: 50px; 
+    transform: translateY(-20px);
+    color: var(--clr-dark);
+}
+.grid5 .learnNbuy1{
+    font-size: var(--fs-lnbuy);
+    color:var(--clr-accent2);
+    transform: translateY(-10px);
+}
+.grid5 .learnNbuy1 a.buy{
+    margin-left: 30px;
+}
+/*############################################################################# grid 6 ########################################################### */
+.grid6{
+    background-image: url(/images/grid/Grid6.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+.grid6 .tv{
+    margin: 40px;
+}
+.grid6 .duck{
+    transform: translateX(20px);
+    transform: translateY(240px);
+}
+.grid6 .stream{
+    color: var(--clr-light2);
+    transform: translateY(250px);
+    font-size: 20px;
+}
+.grid6 .stream a{
+    color: var(--clr-light2);
+}
+/* ###############################################  Fooooooooooooooooooooooter   ########################################################*/
+.footer{
+    background-color:var(--clr-light2) ;
+    border-color: var(--clr-footer);
+    color: #6e6e73;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: var(--ff-footer);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    min-width: 320px;
+}
+.footer-content{
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    padding-left: max(22px,env(safe-area-inset-left));
+    padding-right: max(22px,env(safe-area-inset-right));
+}
+.footer a{
+    color: #424245;
+}
+.footer a:hover{
+    text-decoration: var(--txt-deco);
+}
+.footer .title{
+    color:var(--clr-dark);
+}
+.footer-section{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+    border-bottom: 1px solid var(--clr-footer);
+}
+.footer-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    transform: translateX(-40px);
+}
+.footer-navbar h3{
+    color: var(--clr-dark);
+}
+/* ############################################################### LISTS ! ######################################################### */
+.list1{
+    width: 150px;
+    transform: translateX(34px);
+}
+.list1 li{
+    transform: translateX(-40px);
+
+}
+.list2{
+    width: 150px;
+    transform: translateX(34px);
+}
+.list2 li{
+    transform: translateX(-40px);
+
+}
+.list3{
+    width: 150px;
+    transform: translateX(34px);
+}
+.list3 li{
+    transform: translateX(-40px);
+
+}
+.list4{
+    width: 150px;
+    transform: translateX(34px);
+}
+.list4 li{
+    transform: translateX(-40px);
+
+}
+.list5{
+    width: 150px;
+    transform: translateX(34px);
+}
+.list5 li{
+    transform: translateX(-40px);
+
+}
+/* ########################################################## footer section 2 ################################################################ */
+.more{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+    border-bottom: 1px solid var(--clr-footer);
+}
+.more a{
+    color: var(--clr-accent);
+}
+.usa{
+    float: right;
+    margin-top: 5px;
+    position: relative;
+    top: -3px;
+    z-index: 2;
+    white-space: nowrap;
+}
+.footer-links{
+    position: relative;
+    top: -5px;
+    z-index: 1;
+    transform:translate(280px , -28px);
+}
+.footer-links a{
+    margin-right: 7px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    white-space: nowrap;
+    border-right: 1px solid var(--clr-footer);
+}
