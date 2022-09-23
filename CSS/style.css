@@ -381,7 +381,7 @@ body, main{
     margin-left: 30px;
 }
 
-/*####################################################################### grid 5 ################################################################# */
+/*################## grid 5 ######################### */
 .grid5{
     background-image: url(/images/grid/Grid5.jpg.jpg);
     background-position: center;
@@ -410,7 +410,7 @@ body, main{
 .grid5 .learnNbuy1 a.buy{
     margin-left: 30px;
 }
-/*############################################################################# grid 6 ########################################################### */
+/*######################### grid 6 ########################## */
 .grid6{
     background-image: url(/images/grid/Grid6.jpg.jpg);
     background-position: center;
@@ -437,7 +437,7 @@ body, main{
 .grid6 .stream a{
     color: var(--clr-light2);
 }
-/* ###############################################  Fooooooooooooooooooooooter   ########################################################*/
+/* ###############  Fooooooooooooooooooooooter   #############*/
 .footer{
     background-color:var(--clr-light2) ;
     border-color: var(--clr-footer);
@@ -485,7 +485,7 @@ body, main{
 .footer-navbar h3{
     color: var(--clr-dark);
 }
-/* ############################################################### LISTS ! ######################################################### */
+/* ############################# LISTS ! ############################## */
 .list1{
     width: 150px;
     transform: translateX(34px);
@@ -526,7 +526,7 @@ body, main{
     transform: translateX(-40px);
 
 }
-/* ########################################################## footer section 2 ################################################################ */
+/* ############################ footer section 2 ############################# */
 .more{
     box-sizing: content-box;
     margin: 0;
